@@ -8,7 +8,6 @@ import pandas as pd
 SCOPE = "https://www.googleapis.com/auth/spreadsheets"
 SPREADSHEET_ID = "1676BtnMSE1K1pcmId3ddjX6y-2pVXb70GsI1sp_I1d8"
 SHEET_NAME = "Database"
-SHEET_URL = st.secrets["private_gsheets_url"]
 
 # Create a connection object.
 credentials = service_account.Credentials.from_service_account_info(

@@ -53,7 +53,7 @@ if __name__ == "__main__":
     st.title("🐞 Bug report!")
 
     st.sidebar.write(
-        "This app is intended to show how a Streamlit app can interact easily with a [Google Sheet](https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}) to read or store data."
+        f"This app is intended to show how a Streamlit app can interact easily with a [Google Sheet](https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}) to read or store data."
     )
 
     form = st.form(key="annotation")
